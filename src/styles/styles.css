@@ -1,0 +1,211 @@
+header {
+  margin: 30px;
+}
+header .logo_img {
+  width: 50px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+}
+header .nav__link {
+  color: #100720;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/public/images/quizAppBG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.main__container h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+}
+.main__container .start_quiz_btn {
+  margin-top: 50px;
+  padding: 20px 70px;
+  font-size: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(26, 29, 32);
+  border-radius: 40px;
+  border: 1px solid white;
+  box-shadow: 0px 3px 10px 8px rgba(0, 0, 0, 0.345);
+}
+.main__container .start_quiz_btn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.correct_answer {
+  background-color: green;
+}
+
+.incorrect_answer {
+  background-color: red;
+}
+
+@media (max-width: 768px) {
+  .main__container h1 {
+    font-size: 60px;
+  }
+  .main__container .start_quiz_btn {
+    font-size: 30px;
+  }
+}
+.quizpage__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+.quizCont__img {
+  width: 100%;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.selection__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  box-shadow: 0px 3px 10px 8px rgba(0, 0, 0, 0.345);
+  background-color: rgba(16, 16, 19, 0.5);
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+}
+.selection__container h2 {
+  padding: 5px;
+  font-size: 15px;
+}
+
+.start__btn {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(26, 29, 32);
+  padding: 10px 70px;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+.start__btn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.questions__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.questions__container p {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.questions__container .quizQuestion_img {
+  width: 270px;
+  height: 150px;
+  margin-top: 20px;
+}
+.questions__container .answers__btn {
+  margin-top: 30px;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.questions__container button {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(18, 17, 17);
+  width: calc(50% - 10px);
+  cursor: pointer;
+}
+.questions__container button:not(.incorrect_answer):not(.correct_answer):hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+.questions__container button .correct_answer {
+  background-color: green;
+}
+.questions__container button .incorrect_answer {
+  background-color: red;
+}
+
+.score {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.results__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.results__container .new__quiz {
+  margin-top: 30px;
+  text-decoration: none;
+  background-color: rgb(26, 29, 32);
+  color: white;
+  padding: 10px 70px;
+  border-radius: 20px;
+  border: 1px solid rgb(18, 17, 17);
+  cursor: pointer;
+}
+.results__container .new__quiz:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}/*# sourceMappingURL=styles.css.map */

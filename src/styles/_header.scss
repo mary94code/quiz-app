@@ -1,0 +1,25 @@
+header{
+    margin: 30px;
+    .logo_img{
+        width:50px
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+    }
+    .nav__link{
+        color: #100720;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+        border-radius: 5px;
+        margin-right: 20px;
+        
+    }
+}
