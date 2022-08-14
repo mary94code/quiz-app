@@ -68,7 +68,7 @@ const marvelQuestions = [
     },
     {
         question: "What is Tony Stark's daughter's name?",
-        image: "./images/marvel/ironMan3-tony.jpg",
+        image: "./images/marvel/IronMan3-tony.jpg",
         answers: [
             {
                 answer: "Morgan Stark",
