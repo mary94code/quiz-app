@@ -5,7 +5,7 @@ export default function Header() {
     <div>
       <header>
        <nav>
-       <NavLink to="/"><img className='logo_img' src="/images/house-logo.svg" alt="quiz_logo" /></NavLink> 
+       <NavLink to="/"><img className='logo_img' src="./images/house-logo.svg" alt="quiz_logo" /></NavLink> 
         <ul>
             <li><NavLink className="nav__link" to="/quizPage">All quizes</NavLink></li>
             <li><NavLink className="nav__link" to="/">Main page</NavLink></li>

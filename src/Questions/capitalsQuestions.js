@@ -1,7 +1,7 @@
 const capitalQuestions = [
     {
         question: "What is the capital of the United States?",
-        image: "/images/capitals/usaFlag.jpg",
+        image: "./images/capitals/usaFlag.jpg",
         answers: [
             {
                 answer: "Los Angeles",
@@ -23,7 +23,7 @@ const capitalQuestions = [
     },
     {
         question: "What is the capital of the United Kingdom?",
-        image: "/images/capitals/britishFlag.jpg",
+        image: "./images/capitals/britishFlag.jpg",
         answers: [
             {
                 answer: "London",
@@ -45,7 +45,7 @@ const capitalQuestions = [
     },
     {
         question: "What is the capital of Ukraine?",
-        image: "/images/capitals/ukrainianFlag.jpg",
+        image: "./images/capitals/ukrainianFlag.jpg",
         answers: [
             {
                 answer: "Kyiv",
@@ -67,7 +67,7 @@ const capitalQuestions = [
     },
     {
         question: "What is the capital of France?",
-        image: "/images/capitals/frenchFlag.jpg",
+        image: "./images/capitals/frenchFlag.jpg",
         answers: [
             {
                 answer: "Paris",
@@ -89,7 +89,7 @@ const capitalQuestions = [
     },
     {
         question: "What is the capital of South Korea?",
-        image: "/images/capitals/SKFlag.jpg",
+        image: "./images/capitals/SKFlag.jpg",
         answers: [
             {
                 answer: "Seoul",
@@ -111,7 +111,7 @@ const capitalQuestions = [
     },
     {
         question: "What is the capital of Singapore?",
-        image: "/images/capitals/singaporeFlag.jpg",
+        image: "./images/capitals/singaporeFlag.jpg",
         answers: [
             {
                 answer: "Singapore",
@@ -133,7 +133,7 @@ const capitalQuestions = [
     },
     {
         question: "What is the capital of Jamaica?",
-        image: "/images/capitals/jamaicaFlag.jpg",
+        image: "./images/capitals/jamaicaFlag.jpg",
         answers: [
             {
                 answer: "Kingston",
@@ -155,7 +155,7 @@ const capitalQuestions = [
     },
     {
         question: "What is the capital of Venezuela?",
-        image: "/images/capitals/venezuelaFlag.jpg",
+        image: "./images/capitals/venezuelaFlag.jpg",
         answers: [
             {
                 answer: "Caracas",
@@ -177,7 +177,7 @@ const capitalQuestions = [
     },
     {
         question: "What is the capital of New Zealand?",
-        image: "/images/capitals/newZealandFlag.jpg",
+        image: "./images/capitals/newZealandFlag.jpg",
         answers: [
             {
                 answer: "Wellington",
@@ -199,7 +199,7 @@ const capitalQuestions = [
     },
     {
         question: "What is the capital of Belarus?",
-        image: "/images/capitals/belarusFlag.png",
+        image: "./images/capitals/belarusFlag.png",
         answers: [
             {
                 answer: "Minsk",

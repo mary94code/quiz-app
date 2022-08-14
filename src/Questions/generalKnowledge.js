@@ -1,7 +1,7 @@
 const generalKnowledgeQuestions = [
     {
         question: "How many chromosomes are there in a human?",
-        image: "/images/generalKnowledge/chromosomes.jpeg",
+        image: "./images/generalKnowledge/chromosomes.jpeg",
         answers: [
             {
                 answer: "40",
@@ -23,7 +23,7 @@ const generalKnowledgeQuestions = [
     },
     {
         question: "How many planets are there in our solar system?",
-        image: "/images/generalKnowledge/planets.jpg",
+        image: "./images/generalKnowledge/planets.jpg",
         answers: [
             {
                 answer: "8",
@@ -45,7 +45,7 @@ const generalKnowledgeQuestions = [
     },
      {
         question: "What is the largest country in the world?",
-        image: "/images/generalKnowledge/map.jpg",
+        image: "./images/generalKnowledge/map.jpg",
         answers: [
             {
                 answer: "Russia",
@@ -67,7 +67,7 @@ const generalKnowledgeQuestions = [
     },
     {
         question: "Where would you be if you were standing on the Spanish Steps?",
-        image: "/images/generalKnowledge/spanishsteps.jpg",
+        image: "./images/generalKnowledge/spanishsteps.jpg",
         answers: [
             {
                 answer: "Rome",
@@ -89,7 +89,7 @@ const generalKnowledgeQuestions = [
     },
     {
         question: "Who was the last Tsar of Russia?",
-        image: "/images/generalKnowledge/tsar.jpg",
+        image: "./images/generalKnowledge/tsar.jpg",
         answers: [
             {
                 answer: "Nicholas II",
@@ -111,7 +111,7 @@ const generalKnowledgeQuestions = [
     },
     {
         question: "Who discovered that the earth revolves around the sun?",
-        image: "/images/generalKnowledge/sun.jpg",
+        image: "./images/generalKnowledge/sun.jpg",
         answers: [
             {
                 answer: "Nicolaus Copernicus",
@@ -133,7 +133,7 @@ const generalKnowledgeQuestions = [
     },
     {
         question: "How many bones do we have in an ear?",
-        image: "/images/generalKnowledge/ear.jpg",
+        image: "./images/generalKnowledge/ear.jpg",
         answers: [
             {
                 answer: "3",
@@ -155,7 +155,7 @@ const generalKnowledgeQuestions = [
     },
     {
         question: "What country drinks the most coffee per capita?",
-        image: "/images/generalKnowledge/coffee.jpg",
+        image: "./images/generalKnowledge/coffee.jpg",
         answers: [
             {
                 answer: "Finland",
@@ -177,7 +177,7 @@ const generalKnowledgeQuestions = [
     },
     {
         question: "How many elements are in the periodic table?",
-        image: "/images/generalKnowledge/Chem-Lab.jpg",
+        image: "./images/generalKnowledge/Chem-Lab.jpg",
         answers: [
             {
                 answer: "118",
@@ -199,7 +199,7 @@ const generalKnowledgeQuestions = [
     },
     {
         question: "What country has won the most World Cups?",
-        image: "/images/generalKnowledge/worldCup.jpg",
+        image: "./images/generalKnowledge/worldCup.jpg",
         answers: [
             {
                 answer: "Brazil",

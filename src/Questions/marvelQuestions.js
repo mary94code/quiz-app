@@ -2,7 +2,7 @@ const marvelQuestions = [
     
     {
         question: "Where is Captain America from?",
-        image: "/images/marvel/captainAmerica.jpg",
+        image: "./images/marvel/captainAmerica.jpg",
         answers: [
             {
                 answer: "Brooklyn",
@@ -24,7 +24,7 @@ const marvelQuestions = [
     },
     {
         question: "What type of doctor is Doctor Strange?",
-        image: "/images/marvel/drStrange.jpg",
+        image: "./images/marvel/drStrange.jpg",
         answers: [
             {
                 answer: "A neurosurgeon.",
@@ -46,7 +46,7 @@ const marvelQuestions = [
     },
     {
         question: "Black Panther is set in which fictional country?",
-        image: "/images/marvel/blackPanther.jpg",
+        image: "./images/marvel/blackPanther.jpg",
         answers: [
             {
                 answer: "Wakanda",
@@ -68,7 +68,7 @@ const marvelQuestions = [
     },
     {
         question: "What is Tony Stark's daughter's name?",
-        image: "/images/marvel/ironMan3-tony.jpg",
+        image: "./images/marvel/ironMan3-tony.jpg",
         answers: [
             {
                 answer: "Morgan Stark",
@@ -90,7 +90,7 @@ const marvelQuestions = [
     },
     {
         question: "Who is the firstborn child of Odin?",
-        image: "/images/marvel/odin.jpg",
+        image: "./images/marvel/odin.jpg",
         answers: [
             {
                 answer: "Hela",
@@ -112,7 +112,7 @@ const marvelQuestions = [
     },
     {
         question: "What is the motto/slogan of the Flag Smashers?",
-        image: "/images/marvel/flagSmashers.jpg",
+        image: "./images/marvel/flagSmashers.jpg",
         answers: [
             {
                 answer: "One world, one people",
@@ -134,7 +134,7 @@ const marvelQuestions = [
     },
     {
         question: "What is the name of Thor’s hammer?",
-        image: "/images/marvel/thorHammer2.jpg",
+        image: "./images/marvel/thorHammer2.jpg",
         answers: [
             {
                 answer: "Mjolnir",
@@ -156,7 +156,7 @@ const marvelQuestions = [
     },
     {
         question: "Who can lift Thor’s hammer?",
-        image: "/images/marvel/thorsHammer1.jpg",
+        image: "./images/marvel/thorsHammer1.jpg",
         answers: [
             {
                 answer: "Captain America",
@@ -178,7 +178,7 @@ const marvelQuestions = [
     },
     {
         question: "Who killed Tony Stark’s parents?",
-        image: "/images/marvel/tonyStark.jpg",
+        image: "./images/marvel/tonyStark.jpg",
         answers: [
             {
                 answer: "The Winter Soldier",
@@ -200,7 +200,7 @@ const marvelQuestions = [
     },
     {
         question: "What is Stan Lee’s role in Ant-Man?",
-        image: "/images/marvel/stanLee.jpg",
+        image: "./images/marvel/stanLee.jpg",
         answers: [
             {
                 answer: "Bartender",
